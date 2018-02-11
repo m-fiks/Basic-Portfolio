@@ -1,0 +1,33 @@
+body{
+    background-image:url('../images/topography.jpg');
+}
+
+li{
+    display: inline-block;
+}
+
+h1{
+    border:solid;
+    border-color:#4aaaa5;
+    background-color:#4aaaa5;
+    width: 300px;
+    padding: 25px;
+    margin: 25px;
+}
+
+header {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color:#ffffff;
+    border-style:solid;
+    border-color:#cccccc;
+}
+
+nav{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position:relative;
+    top: 11px;
+    right: 960px;
+    bottom:75 px;
+    left: 860px;
+
+}
