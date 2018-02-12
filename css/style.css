@@ -1,5 +1,22 @@
-body{
+html, body{
     background-image:url('../images/topography.jpg');
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    min-height:100%;
+}
+
+.wrapper:after{
+    content:"";
+    display:block;
+}
+
+.wrapper:after, footer{
+    height: 100px;
 }
 
 li{
@@ -29,5 +46,16 @@ nav{
     right: 960px;
     bottom:75 px;
     left: 860px;
-
 }
+
+footer,
+push {
+    color: white;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    height: 50px;
+}
+
+
