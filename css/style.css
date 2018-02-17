@@ -9,6 +9,17 @@ html, body{
     position:relative;
     height:100%;
     margin:0px;
+
+}
+li >a{
+    color:#777777;
+    text-decoration:none;
+}
+
+a:hover{
+    color:purple;
+    text-decoration: underline;
+
 }
 
 .wrapper{
@@ -143,6 +154,7 @@ figcaption{
     font-family:'Georgia', Times, Times New Roman, serif;
     position:relative;
     margin:50px;
+    text-align:center;
 }
 
 .first{
@@ -165,6 +177,13 @@ figcaption{
     padding:5px;
 }
 
+.button{
+    color: white;
+    background: #4aaaa5;
+    border: 1 px solid #4aaaa5;
+    height: 30px;
+    width:90px;
+}
 
 /*footer styles*/
 
