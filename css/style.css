@@ -170,17 +170,23 @@ div>img {
 .first{
     float:left;
     margin-top:-200px;
+    margin-left: 60px;
 }
 
 .second{
     float:right;
     margin-top:-200px;
+    margin-right: 60px;
 }
 
 .biopic {
     position:relative;
     float:left;
     padding-right: 10px;
+    height: 250px;
+    width:190px;
+    image-rendering:auto;
+
 }
 
 .biotext p{
