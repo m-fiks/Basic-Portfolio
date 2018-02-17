@@ -131,13 +131,12 @@ nav{
     position:relative;
 }
 
-figure>img {
+div>img {
     width:225px;
     height:150px;
     float:left;
     padding: 2px;
     opacity:0.8;
-    
 }
 
 .stock{
@@ -147,22 +146,35 @@ figure>img {
     font-family:font-family: 'Georgia', Times, Times New Roman, serif;
     width: 225px;
     height:30px;
+    margin-top:200px;
+    padding:0;
 }
 
-figcaption{
-    color: #4aaaa5;
+.figcaption{
+    color: white;
+    background-color: #4aaaa5;
     font-family:'Georgia', Times, Times New Roman, serif;
-    position:relative;
-    margin:50px;
+    position:absolute;
+    bottom: -30px;
+    right: 20px;
+    left: 2.5px;
+    padding-left:10px;
+    padding-right:20px;
     text-align:center;
+    width: 194px;
+    height:25px;
+    font-size: 16px;
+
 }
 
 .first{
     float:left;
+    margin-top:-200px;
 }
 
 .second{
     float:right;
+    margin-top:-200px;
 }
 
 .biopic {
